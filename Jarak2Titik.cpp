@@ -13,5 +13,7 @@ int main(){
   cout<<"Masukkan y2 : ";
   cin>>y2;
   
+  hasil=sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+  cout<<"Jarak titik A ("<<x1<<","<<y1<<") dan B ("<<x2<<","<<xy2<<") adalah "<<hasil<<endl;
   return 0;
 }
